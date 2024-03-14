@@ -1,0 +1,40 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Greetings", "What's up"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Take care", "Farewell"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Much appreciated", "Gracias"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is this?", "Can you help me?", "What's your name?", "How does this work?"],
+            "responses": ["I'm here to assist you.", "Sure, I'll do my best to help.", "You can ask me anything."],
+            "context": [""]
+        },
+        {
+            "tag": "information",
+            "patterns": ["Tell me about yourself", "What do you do?", "Who created you?", "What are you?"],
+            "responses": ["I'm a chatbot designed to assist users with their queries.", "I'm here to provide information and help you with your questions."],
+            "context": [""]
+        },
+        {
+            "tag": "personal",
+            "patterns": ["How old are you?", "Where are you from?", "Are you human?", "What's your favorite color?"],
+            "responses": ["I'm just a program, so I don't have an age or location.", "I'm not human, I'm a chatbot designed to assist you.", "I don't have preferences like humans do."],
+            "context": [""]
+        }
+    ]
+}
